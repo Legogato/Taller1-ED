@@ -127,7 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Asignatura.cpp" />
+    <ClCompile Include="MatrizHorario.cpp" />
+    <ClCompile Include="NodoMatriz.cpp" />
+    <ClCompile Include="SistemaInscripcionAsignatura.cpp" />
     <ClCompile Include="Taller1 ED.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Asignatura.h" />
+    <ClInclude Include="MatrizHorario.h" />
+    <ClInclude Include="NodoMatriz.h" />
+    <ClInclude Include="SistemaInscripcionAsignatura.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
