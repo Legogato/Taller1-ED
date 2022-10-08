@@ -4,7 +4,7 @@ using namespace std;
 class Asignatura
 {
 /// <summary>
-/// hola
+/// hola 
 /// </summary>
 private:
 	string nombre;
