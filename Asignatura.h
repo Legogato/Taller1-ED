@@ -4,6 +4,12 @@ using namespace std;
 class Asignatura
 {
 private:
+
+	/// <summary>
+	///alfkhsalkfhalk
+	/// </summary>
+	/// dsgklhslgk 2
+
 	string nombre;
 	int NRC;
 	int creditos;
