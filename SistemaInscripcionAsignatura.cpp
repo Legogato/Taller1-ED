@@ -112,3 +112,45 @@ void SistemaInscripcionAsignatura::lecturaArchivo()
 	archivo_salida.close();
 
 }
+
+void SistemaInscripcionAsignatura::desplegarMenuInicial()
+{
+}
+
+void SistemaInscripcionAsignatura::desplegarCatalogoAsignatura()
+{
+}
+
+void SistemaInscripcionAsignatura::desplegarNombreAscendente()
+{
+}
+
+void SistemaInscripcionAsignatura::desplegarNombreDescendente()
+{
+}
+
+void SistemaInscripcionAsignatura::desplegarAsignaturasSinChoque()
+{
+}
+
+void SistemaInscripcionAsignatura::desplegarParalelosAsignaturasInscritas()
+{
+}
+
+bool SistemaInscripcionAsignatura::inscribirAsignatura()
+{
+	return false;
+}
+
+bool SistemaInscripcionAsignatura::eliminarAsignatura()
+{
+	return false;
+}
+
+void SistemaInscripcionAsignatura::verHorario()
+{
+}
+
+void SistemaInscripcionAsignatura::salir()
+{
+}
