@@ -17,6 +17,7 @@ private:
 	string* dias = new string[6];
 
 public:
+
 	Asignatura(string nombre, int NRC, int creditos, string bloques, string dias);
 	string getNombre();
 	void setNombre(string nombre);
