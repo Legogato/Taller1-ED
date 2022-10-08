@@ -3,6 +3,9 @@
 using namespace std;
 class Asignatura
 {
+/// <summary>
+/// hola
+/// </summary>
 private:
 	string nombre;
 	int NRC;
