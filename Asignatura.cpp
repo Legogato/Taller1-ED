@@ -6,11 +6,12 @@ Asignatura::Asignatura(string nombre, int NRC, int creditos, string bloques, str
 
 string Asignatura::getNombre()
 {
-	return string();
+	return this->nombre;
 }
 
 void Asignatura::setNombre(string nombre)
 {
+	this->nombre = nombre;
 }
 
 int Asignatura::getNRC()
