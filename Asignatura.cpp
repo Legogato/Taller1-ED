@@ -2,6 +2,13 @@
 
 Asignatura::Asignatura(string nombre, int NRC, int creditos, string bloques, string dias)
 {
+
+	this->nombre = nombre;
+	this->NRC = nrc;
+	this->creditos = creditos;
+	this->bloques = bloques;
+	this->dias = dias;
+
 }
 
 string Asignatura::getNombre()
@@ -16,36 +23,40 @@ void Asignatura::setNombre(string nombre)
 
 int Asignatura::getNRC()
 {
-	return 0;
+	return this->NRC;
 }
 
 void Asignatura::setNRC(int NRC)
 {
+	this->NRC = NRC;
 }
 
 int Asignatura::getCreditos()
 {
-	return 0;
+	return this->creditos;
 }
 
 void Asignatura::setCreditos(int creditos)
 {
+	this->creditos = creditos;
 }
 
 string* Asignatura::getBloques()
 {
-	return nullptr;
+	return this->bloques;
 }
 
 void Asignatura::setBloques(string* bloques)
 {
+	this->bloques = bloques;
 }
 
 string* Asignatura::getDias()
 {
-	return nullptr;
+	return this->dias;
 }
 
 void Asignatura::setDias(string* dias)
 {
+	this->dias = dias;
 }
