@@ -28,5 +28,17 @@ public:
 	/// <param name="cols"></param>
 	/// <param name="rows"></param>
 	MatrizHorario(int cols, int rows);
+	/// <summary>
+	/// Elimina una asignatura
+	/// </summary>
+	/// <param name="asignatura"></param>
+	/// <returns></returns>
+	bool eliminarAsignatura(Asignatura* asignatura);
+	/// <summary>
+	/// Agrega una asignatura
+	/// </summary>
+	/// <param name="asignatura"></param>
+	/// <returns></returns>
+	bool agregarAsignatura(Asignatura* asignatura);
 };
 

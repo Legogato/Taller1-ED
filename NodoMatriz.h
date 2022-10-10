@@ -13,8 +13,5 @@ private:
 	NodoMatriz* left;
 public:
 	NodoMatriz(Asignatura* asignatura, int row, int col);
-
-
-
 };
 
