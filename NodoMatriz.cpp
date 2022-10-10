@@ -8,12 +8,52 @@ NodoMatriz::NodoMatriz(Asignatura* asignatura, int row, int col)
 
 }
 
-string Asignatura::getNombre()
+Asignatura NodoMatriz::getAsignatura()
 {
-	return this->nombre;
+	return this->asignatura;
 }
 
-void Asignatura::setNombre(string nombre)
+void NodoMatriz::setAsignatura(Asignatura asignatura)
 {
-	this->nombre = nombre;
+	this->asignatura = asignatura;
+}
+
+int NodoMatriz::getRow()
+{
+	return this->row;
+}
+
+void NodoMatriz::setRow(int row)
+{
+	this->row = row;
+}
+
+int NodoMatriz::getCol()
+{
+	return this->col;
+}
+
+void NodoMatriz::setCol(int col)
+{
+	this->col = col;
+}
+
+NodoMatriz NodoMatriz::getUp()
+{
+	return this->up;
+}
+
+void NodoMatriz::setUp(NodoMatriz up)
+{
+	this->up = up;
+}
+
+NodoMatriz NodoMatriz::getLeft()
+{
+	return this->left;
+}
+
+void NodoMatriz::setLeft(NodoMatriz left)
+{
+	this->left = left;
 }

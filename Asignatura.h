@@ -6,10 +6,6 @@ class Asignatura
 
 private:
 
-	/// <summary>
-	/// Atributos
-	/// </summary>
-
 	string nombre;
 	int NRC;
 	int creditos;

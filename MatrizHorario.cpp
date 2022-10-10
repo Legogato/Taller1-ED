@@ -7,4 +7,5 @@ MatrizHorario::MatrizHorario(int cols, int rows)
 	this->rows = rows;
 	this->aRow = new NodoMatriz(rows);
 	this->aCol = new NodoMatriz(cols);
+
 }
