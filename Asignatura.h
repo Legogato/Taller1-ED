@@ -3,15 +3,12 @@
 using namespace std;
 class Asignatura
 {
-/// <summary>
-/// hola 
-/// </summary>
+
 private:
 
 	/// <summary>
-	///alfkhsalkfhalk
+	/// Atributos
 	/// </summary>
-	/// dsgklhslgk 2
 
 	string nombre;
 	int NRC;
@@ -21,7 +18,22 @@ private:
 
 public:
 
+	/// <summary>
+	/// Constructor
+	/// </summary>
+	/// <param name="nombre"></param>
+	/// <param name="NRC"></param>
+	/// <param name="creditos"></param>
+	/// <param name="bloques"></param>
+	/// <param name="dias"></param>
+
 	Asignatura(string nombre, int NRC, int creditos, string bloques, string dias);
+
+	/// <summary>
+	/// 
+	/// </summary>
+	/// <returns></returns>
+
 	string getNombre();
 	void setNombre(string nombre);
 

@@ -5,10 +5,6 @@ class MatrizHorario
 {
 private:
 
-	/// <summary>
-	/// matriz
-	/// </summary>
-
 	NodoMatriz* aRow;
 	NodoMatriz* aCol;
 	int cols;
@@ -16,4 +12,3 @@ private:
 public:
 	MatrizHorario(int cols, int rows);
 };
-
